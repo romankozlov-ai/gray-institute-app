@@ -15,5 +15,24 @@
     "loading": "Loading...",
     "error": "Error",
     "success": "Success"
+  },
+  "test": {
+    "patientInfo": "Patient information",
+    "patientName": "Patient name",
+    "enterName": "Enter name",
+    "patientAge": "Age",
+    "enterAge": "Enter age",
+    "testDate": "Test date",
+    "notes": "Notes",
+    "enterNotes": "Enter notes",
+    "startTesting": "Start testing",
+    "groupProgress": "Group {current} of {total}",
+    "overallProgress": "Overall progress",
+    "years": "years",
+    "edit": "Edit",
+    "previous": "Previous",
+    "viewResults": "View results",
+    "next": "Next",
+    "finish": "Finish"
   }
 }

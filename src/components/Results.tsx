@@ -76,7 +76,7 @@ export default function Results({ results, patientInfo, onBack, onClear }: Resul
           </button>
           
           <div className="flex gap-2">
-            <PDFExport results={results} patientInfo={patientInfo} />
+            <PDFExport patientName={patientInfo.name} results={results} lang={locale as 'en' | 'uk'} />
             
             <button
               onClick={() => {

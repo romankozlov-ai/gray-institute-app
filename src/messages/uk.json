@@ -15,5 +15,24 @@
     "loading": "Завантаження...",
     "error": "Помилка",
     "success": "Успіх"
+  },
+  "test": {
+    "patientInfo": "Дані пацієнта",
+    "patientName": "Ім'я пацієнта",
+    "enterName": "Введіть ім'я",
+    "patientAge": "Вік",
+    "enterAge": "Введіть вік",
+    "testDate": "Дата тесту",
+    "notes": "Примітки",
+    "enterNotes": "Введіть примітки",
+    "startTesting": "Почати тестування",
+    "groupProgress": "Група {current} з {total}",
+    "overallProgress": "Загальний прогрес",
+    "years": "років",
+    "edit": "Редагувати",
+    "previous": "Назад",
+    "viewResults": "Результати",
+    "next": "Далі",
+    "finish": "Завершити"
   }
 }

@@ -1,9 +1,14 @@
-import { muscleGroups, MuscleGroup, MuscleTest } from '@/data/muscles';
+'use client';
+
+import { muscleGroups, MuscleGroup, MuscleTest as MuscleTestType } from '@/data/muscles';
 import { useTranslations, useLocale } from 'next-intl';
 import TestCard from './TestCard';
 import Results from './Results';
 import PDFExport from './PDFExport';
 import { useStorage, TestResult, PatientInfo } from '@/hooks/useStorage';
+
+export type Language = 'en' | 'uk';
+export type { TestResult } from '@/hooks/useStorage';
 import { useState, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, ClipboardList, User, Calendar } from 'lucide-react';
 
@@ -51,11 +56,11 @@ export default function MuscleTest() {
     return locale === 'uk' ? group.nameUk : group.nameEn;
   };
 
-  const getTestName = (test: MuscleTest) => {
+  const getTestName = (test: MuscleTestType) => {
     return locale === 'uk' ? test.nameUk : test.nameEn;
   };
 
-  const getTestDescription = (test: MuscleTest) => {
+  const getTestDescription = (test: MuscleTestType) => {
     return locale === 'uk' ? test.descriptionUk : test.descriptionEn;
   };
 

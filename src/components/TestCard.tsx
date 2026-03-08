@@ -2,6 +2,7 @@
 
 import { MuscleTest } from '@/data/muscles';
 import { useState } from 'react';
+import { useLocale } from 'next-intl';
 import { Scale, Camera, Video, ChevronDown, ChevronUp, Info } from 'lucide-react';
 import MediaViewer from './MediaViewer';
 
@@ -60,6 +61,7 @@ export default function TestCard({
   const [showMedia, setShowMedia] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
   const [isCompleted, setIsCompleted] = useState(initialScore !== undefined);
+  const locale = useLocale() as 'en' | 'uk';
 
   const handleScoreSelect = (score: number) => {
     setSelectedScore(score);
@@ -134,7 +136,7 @@ export default function TestCard({
         {/* Media Viewer */}
         {showMedia && (
           <div className="mb-4">
-            <MediaViewer photoUrl={test.photoUrl} videoUrl={test.videoUrl} />
+            <MediaViewer test={test} lang={locale} />
           </div>
         )}
 
