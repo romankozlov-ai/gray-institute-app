@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Gray Institute - Physio Testing",
+    "description": "AI-powered physiotherapy assessment platform"
+  },
+  "nav": {
+    "title": "Gray Institute",
+    "subtitle": "Physio Testing"
+  },
+  "test": {
+    "patientInfo": "Patient Information",
+    "patientName": "Patient Name",
+    "patientAge": "Age",
+    "testDate": "Test Date",
+    "notes": "Notes",
+    "enterName": "Enter patient name",
+    "enterAge": "Enter age",
+    "enterNotes": "Enter any general notes",
+    "startTesting": "Start Testing",
+    "groupProgress": "Group {current} of {total}",
+    "overallProgress": "Progress",
+    "years": "years",
+    "edit": "Edit",
+    "previous": "Previous",
+    "next": "Next",
+    "viewResults": "View Results",
+    "finish": "Finish"
+  },
+  "testCard": {
+    "selectScore": "Select strength level (0-5)",
+    "notes": "Notes",
+    "placeholder": "Add any observations...",
+    "completed": "Completed"
+  },
+  "results": {
+    "backToTesting": "Back to Testing",
+    "clearAll": "Clear All",
+    "confirmClear": "Are you sure you want to clear all results?",
+    "testReport": "Test Report",
+    "patient": "Patient",
+    "age": "Age",
+    "testDate": "Test Date",
+    "generalNotes": "General Notes",
+    "totalTests": "Total Tests",
+    "averageScore": "Average Score",
+    "completedGroups": "Completed Groups",
+    "scoreDistribution": "Score Distribution",
+    "detailedResults": "Detailed Results",
+    "noResults": "No test results yet. Complete some tests to see results here."
+  },
+  "pdf": {
+    "exportPDF": "Export PDF"
+  },
+  "language": {
+    "switchTo": "Switch to",
+    "english": "English",
+    "ukrainian": "Українська"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Gray Institute - Фізіотестування",
+    "description": "Платформа для оцінки фізіотерапії з AI"
+  },
+  "header": {
+    "title": "Gray Institute",
+    "subtitle": "Оцінка сили мязів"
+  },
+  "common": {
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "loading": "Завантаження...",
+    "error": "Помилка",
+    "success": "Успіх"
+  }
+}

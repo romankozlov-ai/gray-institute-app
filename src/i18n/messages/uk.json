@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Gray Institute - Фізіотестування",
+    "description": "Платформа для фізіотерапевтичної оцінки з підтримкою ШІ"
+  },
+  "nav": {
+    "title": "Gray Institute",
+    "subtitle": "Фізіотестування"
+  },
+  "test": {
+    "patientInfo": "Інформація про пацієнта",
+    "patientName": "Ім'я пацієнта",
+    "patientAge": "Вік",
+    "testDate": "Дата тестування",
+    "notes": "Нотатки",
+    "enterName": "Введіть ім'я пацієнта",
+    "enterAge": "Введіть вік",
+    "enterNotes": "Введіть загальні нотатки",
+    "startTesting": "Почати тестування",
+    "groupProgress": "Група {current} з {total}",
+    "overallProgress": "Прогрес",
+    "years": "років",
+    "edit": "Редагувати",
+    "previous": "Назад",
+    "next": "Далі",
+    "viewResults": "Результати",
+    "finish": "Завершити"
+  },
+  "testCard": {
+    "selectScore": "Оберіть рівень сили (0-5)",
+    "notes": "Нотатки",
+    "placeholder": "Додайте спостереження...",
+    "completed": "Завершено"
+  },
+  "results": {
+    "backToTesting": "Назад до тестування",
+    "clearAll": "Очистити все",
+    "confirmClear": "Ви впевнені, що хочете очистити всі результати?",
+    "testReport": "Звіт про тестування",
+    "patient": "Пацієнт",
+    "age": "Вік",
+    "testDate": "Дата тестування",
+    "generalNotes": "Загальні нотатки",
+    "totalTests": "Всього тестів",
+    "averageScore": "Середній бал",
+    "completedGroups": "Завершено груп",
+    "scoreDistribution": "Розподіл балів",
+    "detailedResults": "Детальні результати",
+    "noResults": "Поки що немає результатів. Завершіть декілька тестів, щоб побачити результати."
+  },
+  "pdf": {
+    "exportPDF": "Експорт PDF"
+  },
+  "language": {
+    "switchTo": "Переключитися на",
+    "english": "English",
+    "ukrainian": "Українська"
+  }
+}
