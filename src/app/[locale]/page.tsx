@@ -1,9 +1,7 @@
 import MuscleTest from '@/components/MuscleTest';
 import { useTranslations } from 'next-intl';
-import { setRequestLocale } from 'next-intl/server';
 
-export default function Home({ params }: { params: { locale: string } }) {
-  setRequestLocale(params.locale);
+export default function Home() {
   const t = useTranslations('header');
   
   return (

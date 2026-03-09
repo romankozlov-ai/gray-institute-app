@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { locales } from '@/i18n';
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'] });
@@ -24,7 +24,6 @@ export default async function LocaleLayout({
   params: { locale: string };
 }) {
   if (!locales.includes(locale as any)) return null;
-  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (

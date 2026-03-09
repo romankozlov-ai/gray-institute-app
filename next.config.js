@@ -1,10 +1,13 @@
-const createNextIntlPlugin = require('next-intl/plugin');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { unoptimized: true },
+  output: 'export',
+  distDir: 'dist',
+  images: {
+    unoptimized: true
+  },
   trailingSlash: true,
+  // Для GitHub Pages/Vercel
+  assetPrefix: '.',
 };
 
-const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
-module.exports = withNextIntl(nextConfig);
+module.exports = nextConfig;
