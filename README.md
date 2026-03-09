@@ -28,4 +28,6 @@ npm run dev
 
 ## Deploy on Vercel
 
+Production: https://gray-institute-app.vercel.app (auto-deploy on push to `main`).
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/romankozlov-ai/gray-institute-app)
