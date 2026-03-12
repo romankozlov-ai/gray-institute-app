@@ -7,7 +7,7 @@ const nextConfig = {
   },
   trailingSlash: true,
   // Для GitHub Pages/Vercel
-  assetPrefix: '.',
+  ,
 };
 
 module.exports = nextConfig;
